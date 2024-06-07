@@ -174,7 +174,7 @@ def sentiment_analysis_page():
     fig = px.bar(df_melted, x="Question", y="Sentiment", color="Sentiment", 
                  barmode="group", facet_col="name", title="Sentiment Analysis of Survey Responses")
     
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
     
     if st.button("Send Results"):
         switch_page("demo: send results")

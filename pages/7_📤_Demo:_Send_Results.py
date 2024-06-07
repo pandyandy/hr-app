@@ -214,7 +214,7 @@ hide_index=True, use_container_width=True)
     selected_name = st.selectbox("Send to:", emails)
     send = st.button("Send")
     if send:
-        time.sleep(5)
+        time.sleep(3)
         st.success(f"Responses were sent to {selected_name}.")
 
 if __name__ == "__main__":
