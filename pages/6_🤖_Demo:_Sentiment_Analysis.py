@@ -176,8 +176,8 @@ def sentiment_analysis_page():
     
     st.plotly_chart(fig, use_container_width=True)
     
-    if st.button("Send Results"):
-        switch_page("demo: send results")
+    if st.button("Share Results"):
+        switch_page("demo: share results")
 
 if __name__ == "__main__":
     sentiment_analysis_page()

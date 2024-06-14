@@ -120,7 +120,7 @@ def analyze_sentiment(text):
     return score['compound']
 
 def main():
-    st.header("Sentiment Analysis of Survey Responses")
+    st.header("Share Results")
 
     expanders = [
         ("John Doe", "June 1, 2024"),
